@@ -1,0 +1,39 @@
+{
+  "name": "bipartite-matching",
+  "version": "0.0.0",
+  "description": "Maximum unweighted bipartite matching",
+  "main": "match.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "typedarray-pool": "~0.1.2"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2",
+    "tap": "~0.4.8"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/bipartite-matching.git"
+  },
+  "keywords": [
+    "bipartite",
+    "graph",
+    "edge",
+    "matching",
+    "vertex",
+    "assignment",
+    "problem",
+    "labels"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/bipartite-matching/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/bipartite-matching"
+}
