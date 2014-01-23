@@ -5,10 +5,6 @@ var INF = (1<<28)
 
 module.exports = bipartiteMatching
 
-function ARR(x, n) {
-  return Array.prototype.slice.call(x, 0,  n)
-}
-
 function bipartiteMatching(n, m, edges) {
 
   //Initalize adjacency list, visit flag, distance
