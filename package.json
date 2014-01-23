@@ -1,6 +1,6 @@
 {
   "name": "bipartite-matching",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Maximum unweighted bipartite matching",
   "main": "match.js",
   "directories": {
