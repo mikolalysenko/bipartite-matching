@@ -1,20 +1,19 @@
 {
   "name": "bipartite-matching",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Maximum unweighted bipartite matching",
   "main": "match.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "typedarray-pool": "~0.1.2"
+    "typedarray-pool": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "~2.3.2",
-    "tap": "~0.4.8"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
